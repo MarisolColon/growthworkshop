@@ -1,15 +1,16 @@
-import logo from './logo.svg';
 import './App.css'
-import Main from './components/mainComponent';
+import FooterComponent from './components/footerComponent';
+import HeaderComponent from "./components/headerComponent";
 
 function App() {
   return (
     <div className="App">
-      GROWTHWORKSHOP! 
+      <HeaderComponent/>
       <p>
+        GROWTHWORKSHOP! <br></br>
         COMING SOON!
       </p>
-      <Main/>
+      <FooterComponent/>
     </div>
   )
 }
